@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<META charset="UTF-8">
+    	<title>proyecto</title>
+		<link rel="stylesheet" type="text/css" href="edi.css">
+
+		</head>
+	<body>
+	<div id="titulo"><h2>Editar- Clientes</h2></div>
+		
+
+		<table id="form">
+			<tr>
+				<td align="center">
+					<br><br><img src="user.jpg" alt="user"><br><br>
+
+					<br><br><br><P ALIGN=left><label for= "seleccionar foto">seleccionar foto:</label><br>
+        			<input type="file" name="foto"><br>
+        			<P ALIGN=right><input type="submit" value="aceptar" class="buton1" onclick="funcionar()">
+				<input type="reset" value="Cancelar" class="buton2">
+        		</td>
+				
+			<td>
+			<div id="labels">
+				<form method="POST" natame="form1" action="ale.php" onsubmit="funcionar();">
+		       <label>CVE: </label>
+	           <input type="text" id="clave" class="campo" placeholder="Clave de administrador"><br><br>
+	           <label>Nombre: </label>
+	           <input type="text" id="nombre" class="campo"  placeholder="Nombre (s)"><br><br>
+	           <label>Paterno: </label>
+	           <input type="text" id="paterno" class="campo"  placeholder="Apellido paterno"><br><br>
+	           <label>Materno: </label>
+	           <input type="text" id="materno" class="campo"  placeholder="Apellido materno"><br><br>
+				Sexo:
+				<select edad="sexo">
+					<option value="1">masculino</option>
+					<option value="2">femenino</option>
+					</select>
+					<br><br>F.Nacimient:
+				<select F.Nacimiento="nacimiento">
+					</select><select Edad="fecha">
+					</select><select Edad="fecha">
+					</select>
+					<br><br>Edad:
+				<select edad="edad">
+				</select>
+				<br><br>Calle: <input type="text" id="cajatext" placeholder="calle" /><br><br>
+				Numero: <input type="text" id="cajatext" placeholder="Numero" /><br><br>
+				Estado:
+				<select estado="estado">
+				</select>
+				Cuidad:
+				<select cuidad="cuidad">
+				</select>
+				CP:
+				<select edad="cuidad">
+				</select>
+				
+
+                
+				<P ALIGN=right><input type="submit" value="enviar" class="buton"id="aceptar" onclick="funcionar()">
+				<input type="reset" value="Cancelar" class="buton"id="cancelar">
+				</td>
+				<br></td>
+
+				
+			</tr>
+			
+		
+			</table>
+		</div>
+	</body>
+</html>

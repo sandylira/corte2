@@ -1,0 +1,82 @@
+*{
+
+	padding: 0;
+	margin: 50;
+	font-family: arial;
+}
+body{
+	background-color:#45211C;
+	background-image: url(user.jpg);
+	text-align: center;
+	margin-top: 60px; 
+    margin-top: 70px;
+}
+#titulo{ 
+	border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	font-family: 'Capriola';
+	font-color:black;
+	text-align: center;
+	margin: 0px;
+	padding: 50;
+	position: fixed;
+	top: 60px;
+	right: 500px;
+	left: 282px;
+	width: 715px;
+	background: #E48520;	
+
+ }
+#titulo h2{
+ 	background: #E48520;
+
+}
+#form{
+
+	padding: 50px;
+	text-align: right;
+	margin: 0 auto;
+	background-color: #F3E2A9;
+	border-radius: 40px;
+}
+
+
+
+#cajatext {
+	padding:4px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: -5px;
+	border-color: blue;
+}
+
+.buton{
+	padding: 6px;
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	background: #E6811B;
+}
+.buton:hover{
+	background: #E6811B;
+
+}
+.buton1{
+
+	padding: 6px;
+    margin-top: 10px;
+	width: 100px;
+	height: 27px;
+	background: #E6811B;
+}
+.buton2{
+	padding: 6px;
+	margin-top: 10px;
+	width: 100px;
+	height: 27px;
+	background: #E6811B;
+}
+.buton:hover{
+	background-color: #886A08;
+
+}

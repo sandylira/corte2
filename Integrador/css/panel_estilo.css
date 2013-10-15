@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
+*{
+	background-color: #FFDCB1;
+
+}
+
+#menu{
+	background: #45211C;
+	padding: 0px;
+	margin: 0px 0px 0px 30px;
+	position: relative;
+	height: 120px;
+	width: 1000px;
+	padding-top: 50px;
+	border-radius: 10px 0px 0px 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+#menu li{
+	color: #45211C;
+	margin:0 0 0 40px;
+	width:147px;
+	height:96px;
+	float: left; 
+	background:url(../img/boton.png) no-repeat;
+	display: block;
+	position: relative;
+	padding:0px;
+	margin-top: -30px;
+	font-style: bold;
+}
+
+#menu li a{
+text-decoration: none;
+display:block;
+background:url(../img/boton.png) no-repeat;
+text-align:center;
+font-family: 'Capriola';
+font-style: bold;
+font-size:17px;
+line-height:100px;
+width:102px;
+height:97px;
+position:relative;
+color: black;
+}
+
+#menu2{
+	position: fixed;
+	background: #45211C;
+	padding: 0px;
+	margin: 1000px;
+	margin-top: -170px;
+	height: 120px;
+	width: 300px;
+	padding-top: 50px;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 5px 0px 10px rgba(0,0,0,0.5);
+
+}
+
+#menu2 li{
+	float: right;
+	color: #45211C;
+	margin:40px;
+	width:147px;
+	height:50px;
+	background:url(../img/boton2.png) no-repeat;
+	display: block;
+	position: relative;
+	padding:0px;
+	margin-top: -30px;
+}
+
+#menu2 li a{
+text-decoration: none;
+display:block;
+background:url(../img/boton2.png) no-repeat;
+text-align:center;
+font-family: 'Capriola';
+font-style: bold;
+font-style: italic;
+font-size:16px;
+line-height:55px;
+width:102px;
+height:50px;
+position:relative;
+color: black;
+}
